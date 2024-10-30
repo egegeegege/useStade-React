@@ -1,0 +1,103 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+body{
+  background-color:gray;
+}
+.card{
+  background-color: aliceblue;
+  width: 410px ;
+  height: 690px;
+  border-radius: 13px;
+  margin: 100px auto;
+  position: relative;
+}
+.card:hover{
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  background-color: rgb(80, 114, 141);
+  transition: background-color 0.5s ease;
+}
+img{
+ width: 300px;
+ margin:16px 55px; 
+}
+.article{
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 20px;
+  padding: 1px;
+  text-align: center;
+}
+.article>p{
+  font-weight: 500;
+  color: rgb(108, 160, 180);
+  font-weight: 600;
+}
+.baslik{
+  text-align: center;
+  color: rgb(32, 165, 218);
+}
+.btn{
+  text-align: center;
+}
+.btn>form>button{
+  background-color:  rgb(108, 160, 180);
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  width: 240px;
+  height: 35px;
+}
+.btn>form>button:hover{
+  background-color:  rgb(112, 162, 182);
+  color: aliceblue;
+  width: 260px;
+  height: 30px;
+}
+.price>p{
+  text-align: end;
+  padding-right: 15px;
+  color:  rgb(32, 165, 218);
+  font-weight: 600;
+  font-size: 17px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

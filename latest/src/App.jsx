@@ -10,9 +10,13 @@ function App() {
   const [final,setFinal] = useState(55)
   const [sonuc,setSonuc] = useState()
   const [sayac,setSayac] = useState(24)
+  const [sayim,setSayim] = useState(11)
 
   const ortalama =() =>{
     setSonuc ((not1 + not2 + final) /3) 
+  }
+  const sayimiyaz = () =>{
+    setSayim(sayim + 2)
   }
 
   const Arttir =() =>{
@@ -36,6 +40,9 @@ function App() {
       <button onClick={ortalama}>Not Yazdır</button>
 
       <button onClick={Eksilt}> Eksilt {sayac}</button>
+
+      <button onClick={sayimiyaz}> İkişer İkişer Arttır {sayim}</button>
+
     </>
   )
 }
