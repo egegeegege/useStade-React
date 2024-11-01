@@ -7,7 +7,7 @@ function App() {
   const [product , setProduct] = useState([])
 
   useEffect(()=>{
-    axios.get('https://jsonplaceholder.typicode.com/userss')
+    axios.get('https://jsonplaceholder.typicode.com/users')
     .then((response)=>{
       if(response.status == 200){
         setUsers(response.data)
